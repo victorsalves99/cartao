@@ -1,0 +1,82 @@
+.cartao {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    background-color: #979696;
+    box-shadow: inset 0px 0px 50px #646464ef;
+    width: 450px;
+    border-radius: 20px;
+    margin: 3rem;
+    position: relative;
+    gap: 10px;
+    .cont-nome {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        .titulo {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color:#fff;
+            margin-right: 2rem;
+            margin-bottom: 10px;
+        }
+        .conteudo {
+            font-size: 1.2rem;
+            color: #ffffff;
+            border-radius: 10px;
+            width: auto;
+            padding-left: 20px;
+
+
+        }
+    }
+    .cont-numero {
+        display: flex;
+        flex-direction: column;
+        .titulo {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color:#fff;
+            margin-right: 2rem;
+            margin-bottom: 10px;
+
+        }
+        .conteudo {
+            font-size: 1.2rem;
+            color: #ffffff;
+            border-radius: 10px;
+            width: auto;
+            padding-left: 20px;
+
+
+        }
+    }
+    .cont-validade {
+        display: flex;
+        margin-top: 10px;
+        div{
+            display: flex;
+            margin-left: 1rem;
+        .titulo {
+            font-size: .6rem;
+            font-weight: 600;
+            color:#fff;
+
+        }
+        .conteudo {
+            font-size: 1rem;
+            color: #ffffff;
+            border-radius: 10px;
+            width: auto;
+            padding-left: 20px;
+
+
+        }
+        }
+
+        
+    }
+    
+    
+    
+}
