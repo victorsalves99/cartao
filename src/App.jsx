@@ -1,7 +1,7 @@
 import './App.css'
-import Cartao from './components/Cartao/Cartao'
+import Cartao from './components/Cartao/Cartao.jsx'
 import { useState } from 'react'
-import Formulario from './components/formulario/Formulario'
+import Formulario from './components/formulario/Formulario.jsx'
 
 function App() {
   const [name,setName] = useState("VICTOR ALVES")
